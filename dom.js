@@ -11,10 +11,18 @@ let listItems = document.getElementsByClassName("list-item");
 
 for(let i=0; i < listItems.length; i++)
 {
-    listItems[i].style.color = "white";
+    //listItems[i].style.color = "white";
     if(i%2==0)
     {
-        listItems[i].style.backgroundColor = "#7C1AC9";
+        listItems[i].style.backgroundColor = "#D8B0DE";
     }
-    else listItems[i].style.backgroundColor = "#200E6F";
+    else listItems[i].style.backgroundColor = "#B0DEBA";
 }
+
+document.getElementById("lista").textContent = "Nesto";
+
+listItems[3].textContent = "neki item";
+
+//querySelector
+document.querySelector("#paragraf p").style.backgroundColor = "#B0DEBA";
+
