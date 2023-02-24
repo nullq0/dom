@@ -26,3 +26,23 @@ listItems[3].textContent = "neki item";
 //querySelector
 document.querySelector("#paragraf p").style.backgroundColor = "#B0DEBA";
 
+//parentNode
+console.log(items.parentNode);
+//items.parentNode.style.backgroundColor="blue";
+
+//parentElement
+console.log(items.parentElement);
+
+//childNodes
+console.log(items.childNodes)
+
+//sibling
+items.previousElementSibling.style.color = "#245C71"
+items.nextElementSibling.style.color = "#00B9FF"
+
+let drugiElement = document.getElementsByClassName("list-item")[1];
+
+drugiElement.parentElement.previousElementSibling.style.backgroundColor = "#9DF8";
+
+
+
